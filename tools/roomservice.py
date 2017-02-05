@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # Copyright (C) 2012-2013, The CyanogenMod Project
 # Copyright (C) 2012-2015, SlimRoms Project
-#
+# Copyright (C) 2017, The XesKiOS Project
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -42,11 +42,11 @@ except ImportError:
 DEBUG = False
 default_manifest = ".repo/manifest.xml"
 
-custom_local_manifest = ".repo/local_manifests/slim_manifest.xml"
-custom_default_revision = "ng7.0"
-custom_dependencies = "slim.dependencies"
-org_manifest = "SlimRoms"  # leave empty if org is provided in manifest
-org_display = "SlimRoms"  # needed for displaying
+custom_local_manifest = ".repo/local_manifests/xeski_manifest.xml"
+custom_default_revision = "xos-7.1"
+custom_dependencies = "xeski.dependencies"
+org_manifest = "XesKiOS"  # leave empty if org is provided in manifest
+org_display = "XesKiOS"  # needed for displaying
 
 github_auth = None
 
